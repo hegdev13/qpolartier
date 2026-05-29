@@ -15,3 +15,14 @@ This workspace is intended to be a git repository that can be edited locally whi
 ### Upstream reference
 
 - https://github.com/ericshwu/PolarQuant
+
+## Quick Start
+
+Install the Python dependencies listed in [requirements.txt](requirements.txt), then run the phase-1 validation or evaluation scripts from the remote Lightning machine once SSH is configured.
+
+Examples:
+
+```bash
+python experiments/validate_importance.py
+python -m qpolartier.evaluate
+```
