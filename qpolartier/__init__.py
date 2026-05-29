@@ -1,0 +1,1 @@
+"""QPolarTier prototype package."""
